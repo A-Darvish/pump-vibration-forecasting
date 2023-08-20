@@ -100,5 +100,5 @@ plt.plot(train['time'][window:],Ym,'k--',label='Measured')
 plt.xlabel('Time (sec)'); plt.ylabel('pump vibration')
 
 plt.legend()
-plt.show()
 plt.savefig('model_fit.png')
+plt.show()
